@@ -3,6 +3,7 @@ import 'package:splashscreen/splashscreen.dart';
 import 'SignUp.dart';
 import 'SignIn.dart';
 
+
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -26,7 +27,7 @@ class _MyAppState extends State<MyApp> {
       photoSize: 150.0,
       navigateAfterSeconds: MainScreen(),
     );
-  }
+ }
 }
 
 class MainScreen extends StatelessWidget {
@@ -73,6 +74,7 @@ class MainScreen extends StatelessWidget {
           ))
         ]),
       ),
+
     );
   }
 }
